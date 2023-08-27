@@ -1,0 +1,24 @@
+header {
+  display: flex;
+}
+.hero {
+  border: 2px solid red;
+  width: 100%;
+}
+.hero > * {
+  margin-bottom: 20px;
+}
+.discount {
+  border: 2px solid red;
+  background: hsl(var(--clr-white) / 0.2);
+}
+.discount span {
+  background: white;
+  color: hsl(var(--bg-dark));
+  display: inline-block;
+  width: 80px;
+  border-radius: 10px;
+}
+img {
+  /* width: 40%; */
+}
