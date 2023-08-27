@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;800&display=swap");
+
 :root {
   --bg-dark: 240 54% 11%;
   --clr-accent: 220 80% 56%;
   --clr-white: 0 0% 100%;
+  --clr-grey: 0 0% 88%;
 }
 * {
   margin: 0;
@@ -10,6 +13,7 @@
 }
 
 body {
+  font-family: "Rubik", sans-serif;
   background: hsl(var(--bg-dark));
   padding: 30px 100px;
   color: hsl(var(--clr-white));
