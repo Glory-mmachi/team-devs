@@ -18,7 +18,7 @@ export default function Header() {
           Try for free <span>&gt;</span>
         </div>
       </div>
-      <img src={header} alt="" />
+      <img src={header} alt="image header" />
     </header>
   );
 }

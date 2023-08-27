@@ -1,6 +1,6 @@
 :root {
   --bg-dark: 240 54% 11%;
-  --btn-accent: 220 80% 56%;
+  --clr-accent: 220 80% 56%;
   --clr-white: 0 0% 100%;
 }
 * {
@@ -11,7 +11,7 @@
 
 body {
   background: hsl(var(--bg-dark));
-  padding:30px 100px;
+  padding: 30px 100px;
   color: hsl(var(--clr-white));
 }
 ul {
@@ -30,6 +30,6 @@ a {
 
 .btn_accent {
   height: 50px;
-  background: hsl(var(--btn-accent));
+  background: hsl(var(--clr-accent));
   border-radius: 32px;
 }

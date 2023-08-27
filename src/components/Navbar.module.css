@@ -2,6 +2,9 @@ nav {
   display: flex;
   align-items: center;
 }
+nav > * {
+  cursor: pointer;
+}
 
 .logo {
   margin-right: auto;
@@ -12,18 +15,22 @@ nav {
 }
 ul {
   display: flex;
+  width: 25%;
+  justify-content: space-between;
+  margin-right: 15px;
 }
-li {
-  padding-right: 30px;
+
+li:hover {
+  border-bottom: 3px solid hsl(var(--clr-accent));
 }
 .auth {
   display: flex;
-  width: 28%;
+  width: 17%;
   justify-content: space-between;
   align-items: center;
 }
 .login {
-  border-right: 2px solid hsl(var(--clr-white) /0.5);
+  border-right: 2px solid hsl(var(--clr-white) / 0.5);
 }
 .navBtn {
   width: 120px;

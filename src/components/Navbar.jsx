@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import styles from "./Navbar.module.css";
 import Logo from "../assets/crapo logo.svg";
 
@@ -13,7 +12,7 @@ export default function Navbar() {
 
       <ul>
         <li>Products</li>
-        <li>Feattures</li>
+        <li>Features</li>
         <li>About</li>
         <li>Contact</li>
       </ul>
