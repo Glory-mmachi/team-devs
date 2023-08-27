@@ -4,6 +4,7 @@ import header from "../assets/Illustration-Header.png";
 import barChart from "../assets/Bar Chart.svg";
 import people from "../assets/Person.svg";
 import earth from "../assets/Earth.svg";
+import imgWhy from "../assets/Illustrations.png";
 
 export default function Header() {
   const imgAnalytics = [
@@ -43,6 +44,7 @@ export default function Header() {
         </div>
         <img src={header} alt="image header" />
       </header>
+      {/* ANALYTICS */}
 
       <section className={styles.analytics}>
         {imgAnalytics.map((data, i) => (
@@ -56,6 +58,20 @@ export default function Header() {
             </div>
           </div>
         ))}
+      </section>
+
+      {/* WHY ME 😭😭 */}
+
+      <section className={styles.why}>
+        <img src={imgWhy} alt="why" />
+        <div>
+          <h2>Why you should Choose Crappo</h2>
+          <p className={styles.whyDetails}>
+            Experience tge next generation cryptocurrency platform. No financial
+            borders, extra fees, and fake reviews.
+          </p>
+          <div className={`btn btn_accent ${styles.btnWhy}`}>Learn More</div>
+        </div>
       </section>
     </>
   );

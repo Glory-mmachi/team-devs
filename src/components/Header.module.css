@@ -37,8 +37,8 @@ header {
   width: 60%;
   line-height: 20px;
 }
-.btnHeader {
-  width: 150px;
+div.btnHeader {
+  width: 180px;
 }
 .btnHeader span {
   margin-left: 8px;
@@ -87,4 +87,15 @@ header {
 
 .analysis p {
   color: hsl(var(--clr-grey) / 0.7);
+}
+
+/* Why choose */
+section.why {
+  margin-top: 70px;
+  align-items: center;
+  display: flex;
+  border: 2px solid red;
+}
+.why h2 {
+  font-size: 2.5rem;
 }
