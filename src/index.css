@@ -11,7 +11,7 @@
 
 body {
   background: hsl(var(--bg-dark));
-  padding: 20px;
+  padding:30px 100px;
   color: hsl(var(--clr-white));
 }
 ul {

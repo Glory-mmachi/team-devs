@@ -2,15 +2,18 @@ header {
   display: flex;
 }
 .hero {
-  border: 2px solid red;
-  width: 100%;
+  width: 40%;
 }
 .hero > * {
   margin-bottom: 20px;
 }
 .discount {
-  border: 2px solid red;
   background: hsl(var(--clr-white) / 0.2);
+  border-radius: 10px;
+  height: 30px;
+  padding-top: 5px;
+   color: #e0e0e0;
+   width: 50%;
 }
 .discount span {
   background: white;
@@ -18,7 +21,26 @@ header {
   display: inline-block;
   width: 80px;
   border-radius: 10px;
+  margin-right: 5px;
 }
-img {
-  /* width: 40%; */
+.hero h2{
+    font-size: 4rem;
+}
+.heroDetails{
+    font-size: 0.8rem;
+    color: #e0e0e0;
+    width: 60%;
+    line-height: 20px;
+}
+.btnHeader{
+    width: 150px;
+}
+.btnHeader span{
+    margin-left: 8px;
+    width:20px;
+    height: 20px;
+    background: white;
+    color:hsl(var(--btn-accent)) ;
+    border-radius: 50%;
+    text-align: center;
 }

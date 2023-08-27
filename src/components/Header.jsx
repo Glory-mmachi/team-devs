@@ -15,7 +15,7 @@ export default function Header() {
           dicta officia adipisci porro molestiae recusandae id nam! Hic, minima.
         </p>
         <div className={`btn btn_accent ${styles.btnHeader}`}>
-          Try for free <span>&gt</span>
+          Try for free <span>&gt;</span>
         </div>
       </div>
       <img src={header} alt="" />
