@@ -12,7 +12,7 @@ export default function Header() {
         <h2>Fastest & secure platform to invest in crypto</h2>
         <p className={styles.heroDetails}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus debitis
-          dicta officia adipisci porro molestiae recusandae id nam! Hic, minima.
+          dicta officia adipisci porro molestiae recusandae id nam! Hic, minim.
         </p>
         <div className={`btn btn_accent ${styles.btnHeader}`}>
           Try for free <span>&gt;</span>
