@@ -1,8 +1,35 @@
-body {
-  background: #0d0d2b;
+:root {
+  --bg-dark: 240 54% 11%;
+  --btn-accent: 220 80% 56%;
+  --clr-white: 0 0% 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+body {
+  background: hsl(var(--bg-dark));
+  padding: 20px;
+  color: hsl(var(--clr-white));
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.btn {
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_accent {
+  height: 50px;
+  background: hsl(var(--btn-accent));
+  border-radius: 32px;
 }

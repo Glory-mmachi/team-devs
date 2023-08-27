@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: auto;
+  display: flex;
+  width: 12%;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  display: flex;
+}
+li {
+  padding-right: 30px;
+}
+.auth {
+  display: flex;
+  width: 28%;
+  justify-content: space-between;
+  align-items: center;
+}
+.login {
+  border-right: 2px solid hsl(var(--clr-white) /0.5);
+}
+.navBtn {
+  width: 120px;
+}

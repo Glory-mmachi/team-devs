@@ -6,7 +6,7 @@ import Logo from "../assets/crapo logo.svg";
 export default function Navbar() {
   return (
     <nav>
-      <div>
+      <div className={styles.logo}>
         <img src={Logo} alt="logo" />
         <h3 className={styles.logoName}>Crappo</h3>
       </div>
@@ -18,9 +18,9 @@ export default function Navbar() {
         <li>Contact</li>
       </ul>
 
-      <div>
-        <div>Login</div>
-        <div>Register</div>
+      <div className={styles.auth}>
+        <div className={`btn ${styles.login}`}>Login</div>
+        <div className={`btn btn_accent ${styles.navBtn}`}>Register</div>
       </div>
     </nav>
   );
