@@ -156,16 +156,21 @@ form.hash_rate {
   height: 55px;
   padding-left: 10px;
   box-shadow: 1px 2px 2px hsl(var(--bg-dark) / 0.5);
-  color: hsl(var(--bg-dark));
 }
+.hash_rate select,
 .hash_rate input::placeholder {
   color: hsl(var(--bg-dark));
+  font-size: 1rem;
 }
 .hash_rate select {
   width: 150px;
 }
 .hash_rate input {
   width: 250px;
+}
+.hash_rate input:focus,
+.hash_rate select:focus {
+  outline: none;
 }
 
 .estimate {
