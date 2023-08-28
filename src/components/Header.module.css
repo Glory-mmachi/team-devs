@@ -29,7 +29,7 @@ header {
   margin: 0 15px 5px 0;
 }
 .hero h2 {
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 .heroDetails {
   font-size: 0.9rem;
@@ -93,9 +93,102 @@ div.btnHeader {
 section.why {
   margin-top: 70px;
   align-items: center;
+  justify-content: space-between;
   display: flex;
-  border: 2px solid red;
+  padding: 0 40px;
 }
 .why h2 {
   font-size: 2.5rem;
+}
+.whyHero {
+  width: 40%;
+}
+.whyHero > * {
+  margin-bottom: 40px;
+}
+.whyHero p {
+  width: 65%;
+  line-height: 1.6;
+  color: hsl(var(--clr-grey));
+}
+
+/* Earn */
+.earn {
+  position: relative;
+  height: 300px;
+}
+.earnDetails {
+  text-align: center;
+}
+.earnDetails > h3 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+.earnDetails p {
+  font-size: 0.9rem;
+  color: hsl(var(--clr-grey));
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/* Hashrate */
+.hash {
+  border-radius: 40px;
+  width: 50%;
+  height: 300px;
+  padding-top: 20px;
+  background: hsl(var(--clr-white));
+  position: absolute;
+  transform: translate(50%, 10%);
+  box-shadow: 2px 2px 2px rgb(59, 58, 58);
+}
+form.hash_rate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 90px;
+}
+
+.hash_rate input,
+.hash_rate select {
+  border: none;
+  height: 55px;
+  padding-left: 10px;
+  box-shadow: 1px 2px 2px hsl(var(--bg-dark) / 0.5);
+  color: hsl(var(--bg-dark));
+}
+.hash_rate input::placeholder {
+  color: hsl(var(--bg-dark));
+}
+.hash_rate select {
+  width: 150px;
+}
+.hash_rate input {
+  width: 250px;
+}
+
+.estimate {
+  margin: 60px auto 0px;
+  padding: 10px 90px;
+}
+.estimate h4 {
+  color: hsl(var(--clr-accent));
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.estimate .amt {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 5px;
+  color: hsl(var(--bg-dark));
+}
+
+.estimate .amt span {
+  color: hsl(var(--clr-accent));
+}
+
+.estimate p {
+  color: #828282;
 }

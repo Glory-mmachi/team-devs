@@ -64,13 +64,47 @@ export default function Header() {
 
       <section className={styles.why}>
         <img src={imgWhy} alt="why" />
-        <div>
+        <div className={styles.whyHero}>
           <h2>Why you should Choose Crappo</h2>
           <p className={styles.whyDetails}>
-            Experience tge next generation cryptocurrency platform. No financial
+            Experience the next generation cryptocurrency platform. No financial
             borders, extra fees, and fake reviews.
           </p>
           <div className={`btn btn_accent ${styles.btnWhy}`}>Learn More</div>
+        </div>
+      </section>
+
+      <section className={styles.earn}>
+        <div className={styles.earnDetails}>
+          <h3>Check how much you can earn</h3>
+          <p>
+            Let's check your hash rate and see how much youu will earn today
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div className={styles.hash}>
+          <div>
+            <form className={styles.hash_rate}>
+              <input type="text" placeholder="Enter your hash rate" />
+              <select>
+                <option value="Th/s" selected>
+                  TH/s
+                </option>
+                <option value="mh/s">MH/s</option>
+                <option value="gh/s">GH/s</option>
+              </select>
+              <button className="btn btn_accent">Calculate</button>
+            </form>
+          </div>
+          <div className={styles.estimate}>
+            <h4>Estimated 24 hours earning:</h4>
+            <p className={styles.amt}>
+              0.055 130 59 ETH <span>($127s)</span>
+            </p>
+            <p>
+              Revenue will change based on mining difficulty and Ethereum price
+            </p>
+          </div>
         </div>
       </section>
     </>
