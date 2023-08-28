@@ -114,6 +114,7 @@ section.why {
 
 /* Earn */
 .earn {
+  margin-top: 50px;
   position: relative;
   height: 300px;
 }
