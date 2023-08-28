@@ -83,27 +83,23 @@ export default function Header() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
         </div>
         <div className={styles.hash}>
-          <div>
-            <form className={styles.hash_rate}>
-              <input type="text" placeholder="Enter your hash rate" />
-              <select>
-                <option value="Th/s" selected>
-                  TH/s
-                </option>
-                <option value="mh/s">MH/s</option>
-                <option value="gh/s">GH/s</option>
-              </select>
-              <button className="btn btn_accent">Calculate</button>
-            </form>
-          </div>
+          <form className={styles.hash_rate}>
+            <input type="text" placeholder="Enter your hash rate" />
+            <select>
+              <option value="Th/s" selected>
+                TH/s
+              </option>
+              <option value="mh/s">MH/s</option>
+              <option value="gh/s">GH/s</option>
+            </select>
+            <button className="btn btn_accent">Calculate</button>
+          </form>
           <div className={styles.estimate}>
             <h4>Estimated 24 hours earning:</h4>
             <p className={styles.amt}>
               0.055 130 59 ETH <span>($127s)</span>
             </p>
-            <p>
-              Revenue will change based on mining difficulty and Ethereum price
-            </p>
+            <p>Revenue will change based on</p>
           </div>
         </div>
       </section>
